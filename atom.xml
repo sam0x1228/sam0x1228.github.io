@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>卡尔夫</title>
+  
+  <subtitle>有梦想 怕什么流浪</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/sam0x1228/sam0x1228.github.io/"/>
+  <updated>2016-06-18T08:53:28.000Z</updated>
+  <id>https://github.com/sam0x1228/sam0x1228.github.io/</id>
+  
+  <author>
+    <name>sam0x1228</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git搬砖修墙之路</title>
+    <link href="https://github.com/sam0x1228/sam0x1228.github.io/2016/06/16/git%E6%90%AC%E7%A0%96%E4%BF%AE%E5%A2%99%E4%B9%8B%E8%B7%AF/"/>
+    <id>https://github.com/sam0x1228/sam0x1228.github.io/2016/06/16/git搬砖修墙之路/</id>
+    <published>2016-06-15T16:21:32.000Z</published>
+    <updated>2016-06-18T08:53:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>不出所料，我的博客一定会吃灰。想想，挺对不起它的。</p><p>想想最近一段时间真是一事无成</p><ul><li>小伙伴创业的提议从去年到今年，依然还是闷在梦里，距离实现遥遥无期。虽然有投入点心思进去，但结果还真是不可说，惭愧。</li><li>虽然最近在拍黄片（PHP），但拍黄片成功之路还遥遥不可期。中间大半时间还是打酱油了，想想我iOS都还没成神，还在搬砖的路上，又想着拍黄片了，心真大！</li><li>还有其他等等。。。</li></ul><h3 id="git数据恢复"><a href="#git数据恢复" class="headerlink" title="git数据恢复"></a>git数据恢复</h3><p>闲话不多说。最近写小项目，不对，应该说是玩玩。（手动 尴尬）</p><p>花了大半个月折腾完了，心血来潮，想做个版本管理方便后续可能会再折腾，虽然说吃灰的份更多点。然而，我用的Github Desktop这个桌面管理软件，没错，我就是懒得敲命令，虽说这个软件没用过几次。</p><p>万恶的事情来了，在commit的时候，看到界面好几个按钮不知干嘛的，人总是好奇的。于是，在一顿胡乱狂点后，出大事。提交记录变成空空如也，关键是源文件也丢失了，丢失了。。。整个目录真是空空如也！</p><p>万幸，在终端查看了下看到隐藏的.git目录还在。于是用<code>git log</code> 查看提交记录，然后懵逼了，提示还没提交过一次。心里顿时千万只羊驼奔腾而过。当时还忘了.git目录下的object目录，第一反应竟然是找个磁盘恢复工具做数据恢复。（手动鄙视自己）瞬间觉得自己好业余，真是搬砖的命，以前学习过又忘了，大概这就是图方面桌面软件用多的弊端。</p><p>第二天，因为第一天折腾了好久磁盘恢复失败，后来猛得想起object目录。用<code>git cat－file -p &lt;SHA&gt;</code>命令行，幸运的是，第一个目录里的文件内容就是提交记录，其他文件内容都有幸保存着。然后执行<code>git reset --hard &lt;SHA&gt;</code>命令行，可喜的是提示恢复成功！</p><h3 id="git学习大全"><a href="#git学习大全" class="headerlink" title="git学习大全"></a>git学习大全</h3><blockquote><p>授人以渔，授人以鱼</p></blockquote><p><a href="https://git-scm.com/blog" target="_blank" rel="noopener">https://git-scm.com/blog</a>  原汁原味的git学习资料，博客质量很高，懒得搬砖，边成自己的总结，有点可耻。(其实就是文笔不好，写不出什么通俗易懂，幽默风趣的文章)</p><p>你说英文看不懂？Google浏览器自带翻译光环。</p><hr><p>不知不觉，又啰嗦来这么多废话。</p><p>The End</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;不出所料，我的博客一定会吃灰。想想，挺对不起它的。&lt;/p&gt;
+&lt;p&gt;想想最近一段时间真是一事无成&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;小伙伴创业的提议从
+      
+    
+    </summary>
+    
+      <category term="修墙路" scheme="https://github.com/sam0x1228/sam0x1228.github.io/categories/%E4%BF%AE%E5%A2%99%E8%B7%AF/"/>
+    
+    
+      <category term="git" scheme="https://github.com/sam0x1228/sam0x1228.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为什么我不写技术博客</title>
+    <link href="https://github.com/sam0x1228/sam0x1228.github.io/2016/05/05/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%B8%8D%E5%86%99%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://github.com/sam0x1228/sam0x1228.github.io/2016/05/05/为什么我不写技术博客/</id>
+    <published>2016-05-05T15:27:24.000Z</published>
+    <updated>2016-05-05T16:25:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本来这里应该是个技术博客，奈何，最后是用来记录生活，记录某一时刻的想法。</p><p>现在想写技术相关博文的想法越来越少了，虽然有时候逛逛技术博客或者论坛，遇见或者学到不少东西，有些东西有过深究，有些东西只是浅看。最后只是在收藏夹多了几篇收藏，或者是在Evernote多了几个相关片段。Evernote至今都已陆陆续续雪藏了几百篇零零散散的东西。</p><p>想想以前挺爱记东西的，想起来也是血泪史，一直txt/word文档记本地。电脑被偷过，自己装机全盘格式过，想起来都有种掩面默默流泪的赶脚。就像看着自己的孩子一天一天得养起来，突然有一点离自己而去的悲痛。此时，又让我想起小时候亲手种了一棵桃树，养了十几年，最后还是在前几年被砍了。无奈～～</p><p>有时候想把Evernote上的东西整理下，但又有点有心无力。学习工作一直以来都是独当一面（被迫的，多想有老司机带带），技术栈转得又快，想想一两个月入一门，甚至更多。所以，一直忙碌在学习与积累。</p><p>更有时候想直接把Evernote上的东西丢Github仓库上或者是gist，想想还是算了，有点太污染了Github。<br>期待有动力弄个比如下面这样的栏目：</p><ul><li>Learn iOS date by date</li><li>拍黄片(PHP) date by date （总有一股莫名的喜感）</li><li><del>Learn Embedded date by date（已故）</del></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;本来这里应该是个技术博客，奈何，最后是用来记录生活，记录某一时刻的想法。&lt;/p&gt;
+&lt;p&gt;现在想写技术相关博文的想法越来越少了，虽然有时候逛逛技术博客或者论坛，遇见或者学到不少东西，有些东西有过深究，有些东西只是浅看。最后只是在收藏夹多了几篇收藏，或者是在Evernote多了
+      
+    
+    </summary>
+    
+      <category term="杂文" scheme="https://github.com/sam0x1228/sam0x1228.github.io/categories/%E6%9D%82%E6%96%87/"/>
+    
+    
+      <category term="杂文" scheme="https://github.com/sam0x1228/sam0x1228.github.io/tags/%E6%9D%82%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无网络生活这一两个月</title>
+    <link href="https://github.com/sam0x1228/sam0x1228.github.io/2016/05/03/%E6%97%A0%E7%BD%91%E7%BB%9C%E7%94%9F%E6%B4%BB%E8%BF%99%E4%B8%80%E4%B8%A4%E4%B8%AA%E6%9C%88/"/>
+    <id>https://github.com/sam0x1228/sam0x1228.github.io/2016/05/03/无网络生活这一两个月/</id>
+    <published>2016-05-03T11:10:39.000Z</published>
+    <updated>2017-09-13T16:12:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>标题起的略夸张，事情真实情况只是在家的时候没网没信号。住的地方，地处偏僻，手机无信号，几乎等于开着飞行模式。又逢那儿的居委会整顿网络接入问题，网线无情被剪，想着马上会离开这个地方，就一直没去重新拉网线。于是，开始过着无网络生活！</p><p>曾几何时，一个人的生活越来越离不开网络。</p><p>无网络生活也一个多月了。有个朋友问我：“没网，那你这个月怎么过来的？”。那么，这一个月我是怎么过来的？几乎每天晚上都花一两个小时看书就是这段时间的生活。本来想说读书的，想想我这样不深读，不写感悟，不写笔记，还是用看书合适点。</p><h3 id="书单："><a href="#书单：" class="headerlink" title="书单："></a>书单：</h3><ul><li>《编程珠玑》</li><li>《Objective－C高级编程  iOS与OS X多线程和内存管理》</li><li>《PHP从入门到精通》</li><li>《Effective Objective-C 2.0  编写高质量iOS与OS X代码的52个有效方》</li><li>《黑客与画家》</li></ul><p>《编程珠玑》大概浏览了一遍，想起以前挺热衷算法，现在越发觉与算法无缘，已不再有心思去细究算法。这就像跟一个人谈恋爱，有时候，谈着谈着就淡了，最后分了。</p><p>《Objective－C高级编程  iOS与OS X多线程和内存管理》抱着七分理解的心态读了一遍，总体来说还是很认真的读了一遍。可惜，读书不写笔记不是个好习惯。大概是读的时候还抱着回头再细读一遍再加点拓展的念头，预计笔记已遥遥无期。当然，也许是懒！</p><p>《PHP从入门到精通》看了大概五分之一，接触了一点基础。自从入嵌入式开发的门失败以后，一直想入后台这个门。奈何！阴差阳错，入了iOS开发这个门，同时，也搬砖了一两年iOS。虽然入门嵌入式开发失败，但是，大学的还是蛮喜欢嵌入式开发的，至少学习的时候“玩”得很开发。现今，想入门后台开发的心又蠢蠢欲动，虽然PHP不一定是最好的选择。</p><p>《Effective Objective-C 2.0  编写高质量iOS与OS X代码的52个有效方》把想看的都看得差不多，它跟《Objective－C高级编程  iOS与OS X多线程和内存管理》是两本很经典的书。也纪录了不少“只需要这样做，不说为什么”的内容简结，纯属备忘。</p><p>《黑客与画家》这本书虽然看的内容不多，但是感悟最深。特别是对“拒绝平庸”这四个字特别有印象。<br>突然想到一个问题：程序员如何看待编程语言？对于这个问题，不同人有不同的答案。《黑客与画家》拒绝平庸这一章原文有这么一句话：</p><blockquote><p>他们都满足于自己碰巧用熟了的那种语言，他们的编程思想都被那种语言主宰了</p></blockquote><p>作者自述高中时期学习Basic语言经历及他对Blub困境看法。时常听到有些朋友惶恐一门编程语言变得不热门或被别的编程语言取代以后，会怎样会怎样的糟糕。个人觉得没必要担心这种情况，在这个日新月异的年代，学习能力以及适应社会发展的能力是必备的能力。我觉得一个合格的程序员不会缺少学习能力，当然，不仅仅是程序员，还有其他的各行各业各色的人。一个缺少学习能力的人注定被“淘汰”。</p><blockquote><p>所处环境影响眼界，眼界限制思维</p></blockquote><p>让我想起一辈子生活在小乡镇的父辈，他们的经验见识大多都还停留在他们二三十岁时学习到或者积累的见识，而对现今的社会缺少很多认识。虽然我觉得，他们已经被淘汰了，很难在新时代推波助澜。但是，我不能指责他们保守落后、不学习、不接触新事物，因为，几十年的积累不是说改就改的，毕竟，靠这些见识在偏居一偶的小乡镇可以活的很安稳安心。</p><p>对于一个人，我可以接受他一开始什么都不懂，但不能接受他一直不进步，一直平庸。这也是我看待一个人是否值得相处或交友的判断准则之一。</p><h3 id="后记："><a href="#后记：" class="headerlink" title="后记："></a>后记：</h3><p>写作水平实在是不行了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;标题起的略夸张，事情真实情况只是在家的时候没网没信号。住的地方，地处偏僻，手机无信号，几乎等于开着飞行模式。又逢那儿的居委会整顿网络接入问题
+      
+    
+    </summary>
+    
+      <category term="杂文" scheme="https://github.com/sam0x1228/sam0x1228.github.io/categories/%E6%9D%82%E6%96%87/"/>
+    
+    
+      <category term="杂文" scheme="https://github.com/sam0x1228/sam0x1228.github.io/tags/%E6%9D%82%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>杂七杂八</title>
+    <link href="https://github.com/sam0x1228/sam0x1228.github.io/2016/03/06/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+    <id>https://github.com/sam0x1228/sam0x1228.github.io/2016/03/06/杂七杂八/</id>
+    <published>2016-03-05T17:54:40.000Z</published>
+    <updated>2016-03-06T14:43:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><blockquote><p>“工欲善其事必先利其器”</p></blockquote><p>纪录下个人常用工具箱，浏览网站等等。</p><hr><h3 id="Xcode-插件"><a href="#Xcode-插件" class="headerlink" title="Xcode 插件"></a>Xcode 插件</h3><h4 id="Alcatraz"><a href="#Alcatraz" class="headerlink" title="Alcatraz"></a><a href="https://github.com/alcatraz/Alcatraz">Alcatraz</a></h4><p>Alcatraz是Xcode的插件管理器，能够让你方便的管理Xcode的插件，上面不仅提供各种插件下载(以下所提到的插件在上面都提供下载)，还有主题。可以说是“一件在手，天下我有！”</p><hr><h4 id="FuzzyAutocomplete"><a href="#FuzzyAutocomplete" class="headerlink" title="FuzzyAutocomplete"></a><a href="https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin">FuzzyAutocomplete</a></h4><p>我的最爱，强大的模糊匹配输入。OK，在这里不得不吐槽下iOS命名，那句话怎么说来着？。。。。。。又长又臭！有了它，你绝对可以减少因为记那些方法，枚举值啥的而耗死的脑细胞。</p><hr><h4 id="VVDocumenter"><a href="#VVDocumenter" class="headerlink" title="VVDocumenter"></a><a href="https://github.com/onevcat/VVDocumenter-Xcode">VVDocumenter</a></h4><p>记得用Eclipse、SourceInsight的时候，强大而文雅的注释风格让我大爱。没错VVDocumenter-Xcode就可以给你提供优雅简明注释。问题来了，不写注释的程序是不是好程序？</p><hr><h4 id="KSImageNamed"><a href="#KSImageNamed" class="headerlink" title="KSImageNamed"></a><a href="https://github.com/ksuther/KSImageNamed-Xcode">KSImageNamed</a></h4><p>图片加载预览,当你使用<code>[UIImage imageNamed:</code>方法载入图片资源的时候，只要你选中你要的图片，回车键轻轻一敲，你就会体会到它的美妙。</p><hr><h4 id="XcodeBoost"><a href="#XcodeBoost" class="headerlink" title="XcodeBoost"></a><a href="https://github.com/fortinmike/XcodeBoost">XcodeBoost</a></h4><blockquote><p>“An Xcode plugin that aims to make altering and inspecting code quick and easy.”</p></blockquote><p>作者简明一句话概括出它的强大，让你改变和检查代码更快速更容易，具体可以点传送门到Github看演示。</p><hr><h4 id="XAlign"><a href="#XAlign" class="headerlink" title="XAlign"></a><a href="https://github.com/qfish/XAlign">XAlign</a></h4><p>让你的代码更对齐、美观，处女座？洁癖码农最爱？一切在不言中，23333。</p><hr><h4 id="deriveddata-exterminator"><a href="#deriveddata-exterminator" class="headerlink" title="deriveddata-exterminator"></a><a href="https://github.com/kattrali/deriveddata-exterminator">deriveddata-exterminator</a></h4><p>不知道你用不用，反正我是用了，当你在开发中反反复复编译运行遇到Xcode抽风报红提示因为某个原因要删除某个目录下的文件，或许你会感谢它。</p><hr><h3 id="翻墙小能手"><a href="#翻墙小能手" class="headerlink" title="翻墙小能手"></a>翻墙小能手</h3><h4 id="lantern"><a href="#lantern" class="headerlink" title="lantern"></a><a href="https://github.com/getlantern/lantern">lantern</a></h4><p>多平台支持免费开源的翻墙小能手。不会翻墙的程序猿不是一个好司机！</p><hr><h3 id="MarkDown编辑器"><a href="#MarkDown编辑器" class="headerlink" title="MarkDown编辑器"></a>MarkDown编辑器</h3><h4 id="Mou"><a href="#Mou" class="headerlink" title="Mou"></a><a href="http://25.io/mou/" target="_blank" rel="noopener">Mou</a></h4><p>Mac上免费markdown编辑器，简洁方便，我正在用着呢。</p><hr><h3 id="笔记本"><a href="#笔记本" class="headerlink" title="笔记本"></a>笔记本</h3><p>Evernote写笔记小能手</p><hr><h3 id="代码托管"><a href="#代码托管" class="headerlink" title="代码托管"></a>代码托管</h3><p>github?gitcafe?gitlab? 无论是代码托管还是code review，总有你喜欢的！</p><p>git + SoucreTree 代码版本控制管理，简单粗暴，当然，你也可以用Xcode自带的工具或者在终端用命令行（高大上的感觉，如果你偏爱命令行可以<a href="http://www.ruanyifeng.com/blog/" target="_blank" rel="noopener">到此一游</a>，阮一峰大大会给你惊喜的。</p><hr><h3 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h3><h4 id="生活类："><a href="#生活类：" class="headerlink" title="生活类："></a>生活类：</h4><p><a href="http://www.zhihu.com/" target="_blank" rel="noopener">知乎</a> </p><blockquote><p>“与世界分享你的知识、经验和见解” “以问答了解世界，发现更多精彩观点，认真，你就赢了”</p></blockquote><p>可以让你理性了解世界、社会。</p><p><a href="http://www.v2ex.com" target="_blank" rel="noopener">V2EX</a></p><blockquote><p>“V2EX 是创意工作者们的社区。”</p></blockquote><p>V2EX是这么介绍自己的。分享自己的知识，传递正能量，干净、安静。</p><hr><h4 id="技术类："><a href="#技术类：" class="headerlink" title="技术类："></a>技术类：</h4><p>ps:主要介绍iOS开发相关</p><p><a href="http://objccn.io/" target="_blank" rel="noopener">objc中国</a></p><blockquote><p>“为中国 Objective-C 社区带来最佳实践和先进技术” </p></blockquote><p>可以说是<a href="https://www.objc.io/" target="_blank" rel="noopener">objc</a>的国人版，苹果开发者应该知道的网站，让你了解如何编写高质量代码。</p><p><a href="http://nshipster.cn/" target="_blank" rel="noopener">NSHipster中文版</a></p><blockquote><p>NSHipster 关注被忽略的 Objective-C、Swift 和 Cocoa 特性。每周更新。</p></blockquote><p><a href="http://nshipster.com/" target="_blank" rel="noopener">NSHipster</a>国人版，看到我介绍给标上国人版这个标签，。。。。。。我还有什么好说的！总让人想到“山寨”这个词，23333…语文水平有限。</p><p>此外，还有不少牛人高质量博客博文，可以参考这份列表<a href="https://github.com/tangqiaoboy/iOSBlogCN">传送门</a> 总有你喜欢的。</p><p><a href="http://stackoverflow.com/" target="_blank" rel="noopener">stackoverflow</a></p><p>专治各种“疑难杂症”，给我带来很大的帮助。话说我一直都是只在上面找答案，没有回答过问题，惭愧惭愧！！！</p><hr><h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>先这样，后续再添加。</p><p>The End! </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;“工欲善其事必先利其器”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;纪录下个人常用工具箱，浏览网站等等。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="工具箱" scheme="https://github.com/sam0x1228/sam0x1228.github.io/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    
+    
+      <category term="杂七杂八" scheme="https://github.com/sam0x1228/sam0x1228.github.io/tags/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Hexo</title>
+    <link href="https://github.com/sam0x1228/sam0x1228.github.io/2016/03/03/hello-hexo/"/>
+    <id>https://github.com/sam0x1228/sam0x1228.github.io/2016/03/03/hello-hexo/</id>
+    <published>2016-03-02T17:54:45.000Z</published>
+    <updated>2016-04-30T16:04:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="只是折腾"><a href="#只是折腾" class="headerlink" title="只是折腾"></a>只是折腾</h4><p>闲来无事又折腾起来博客了。正所谓，生命不止，折腾不休，不得不说这个主题挺赞的。<del>OK，这样就好，再折腾就真的要剁手了！</del> </p><p>事实证明，誓言是用来打破的，又折腾了起来（by. 2016.5.1）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;只是折腾&quot;&gt;&lt;a href=&quot;#只是折腾&quot; class=&quot;headerlink&quot; title=&quot;只是折腾&quot;&gt;&lt;/a&gt;只是折腾&lt;/h4&gt;&lt;p&gt;闲来无事又折腾起来博客了。正所谓，生命不止，折腾不休，不得不说这个主题挺赞的。&lt;del&gt;OK，这样就好，再折腾就真的要剁手了
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="https://github.com/sam0x1228/sam0x1228.github.io/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://github.com/sam0x1228/sam0x1228.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
